@@ -1,6 +1,5 @@
 
 import Adafruit_BBIO as GPIO
-import Adafruit_PWM as PWM
 
 
 GPIO.setup("P8_10", GPIO.OUT)

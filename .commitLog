@@ -1,2 +1,1 @@
--Added this commit log file to repo...
--Added a simple block of code to set a pin as an output and set the output value to 'high'
+-Removed the PWM import call
