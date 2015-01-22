@@ -2,6 +2,12 @@
 import Adafruit_BBIO as GPIO
 
 
-GPIO.setup("P8_10", GPIO.OUT)
-GPIO.output("P8_10", GPIO.HIGH)
-GPIO.cleanup()
+# GPIO.setup("P8_10", GPIO.OUT)
+# GPIO.output("P8_10", GPIO.HIGH)
+# GPIO.cleanup()
+GPIO.setup("P8_14", GPIO.IN)
+
+if GPIO.input("P8_14"):
+    print("HIGH")
+else:
+    print("LOW")
